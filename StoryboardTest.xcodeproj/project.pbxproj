@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1055873A1EE160E1006416EF /* OCUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105587391EE160E1006416EF /* OCUIViewController.m */; };
 		1074D2681EE137DC005660F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D2671EE137DC005660F7 /* AppDelegate.swift */; };
 		1074D26A1EE137DC005660F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D2691EE137DC005660F7 /* ViewController.swift */; };
 		1074D26D1EE137DC005660F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1074D26B1EE137DC005660F7 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		1074D2751EE137DC005660F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1074D2731EE137DC005660F7 /* LaunchScreen.storyboard */; };
 		1074D2801EE137DC005660F7 /* StoryboardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D27F1EE137DC005660F7 /* StoryboardTestTests.swift */; };
 		1074D28B1EE137DC005660F7 /* StoryboardTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D28A1EE137DC005660F7 /* StoryboardTestUITests.swift */; };
+		1074D2991EE1489B005660F7 /* SwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D2981EE1489B005660F7 /* SwiftTableViewController.swift */; };
+		1074D29B1EE149CA005660F7 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D29A1EE149CA005660F7 /* SwiftClass.swift */; };
+		1074D29F1EE14DCC005660F7 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074D29E1EE14DCC005660F7 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		105587371EE160E0006416EF /* StoryboardTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		105587381EE160E1006416EF /* OCUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUIViewController.h; sourceTree = "<group>"; };
+		105587391EE160E1006416EF /* OCUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUIViewController.m; sourceTree = "<group>"; };
 		1074D2641EE137DC005660F7 /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1074D2671EE137DC005660F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1074D2691EE137DC005660F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		1074D2861EE137DC005660F7 /* StoryboardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1074D28A1EE137DC005660F7 /* StoryboardTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardTestUITests.swift; sourceTree = "<group>"; };
 		1074D28C1EE137DC005660F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1074D2981EE1489B005660F7 /* SwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableViewController.swift; sourceTree = "<group>"; };
+		1074D29A1EE149CA005660F7 /* SwiftClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		1074D29E1EE14DCC005660F7 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,12 @@
 				1074D2731EE137DC005660F7 /* LaunchScreen.storyboard */,
 				1074D2761EE137DC005660F7 /* Info.plist */,
 				1074D26E1EE137DC005660F7 /* StoryboardTest.xcdatamodeld */,
+				1074D2981EE1489B005660F7 /* SwiftTableViewController.swift */,
+				1074D29A1EE149CA005660F7 /* SwiftClass.swift */,
+				1074D29E1EE14DCC005660F7 /* SampleData.swift */,
+				105587381EE160E1006416EF /* OCUIViewController.h */,
+				105587391EE160E1006416EF /* OCUIViewController.m */,
+				105587371EE160E0006416EF /* StoryboardTest-Bridging-Header.h */,
 			);
 			path = StoryboardTest;
 			sourceTree = "<group>";
@@ -197,6 +213,7 @@
 					1074D2631EE137DC005660F7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W5E3DM2943;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					1074D27A1EE137DC005660F7 = {
@@ -266,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1074D2701EE137DC005660F7 /* StoryboardTest.xcdatamodeld in Sources */,
+				1074D29F1EE14DCC005660F7 /* SampleData.swift in Sources */,
+				1074D2991EE1489B005660F7 /* SwiftTableViewController.swift in Sources */,
 				1074D26A1EE137DC005660F7 /* ViewController.swift in Sources */,
+				1074D29B1EE149CA005660F7 /* SwiftClass.swift in Sources */,
 				1074D2681EE137DC005660F7 /* AppDelegate.swift in Sources */,
+				1055873A1EE160E1006416EF /* OCUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,11 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W5E3DM2943;
 				INFOPLIST_FILE = StoryboardTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yujm.StoryboardTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StoryboardTest/StoryboardTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -432,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W5E3DM2943;
 				INFOPLIST_FILE = StoryboardTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yujm.StoryboardTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StoryboardTest/StoryboardTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +544,7 @@
 				1074D2911EE137DC005660F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1074D2921EE137DC005660F7 /* Build configuration list for PBXNativeTarget "StoryboardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +553,7 @@
 				1074D2941EE137DC005660F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1074D2951EE137DC005660F7 /* Build configuration list for PBXNativeTarget "StoryboardTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +562,7 @@
 				1074D2971EE137DC005660F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
