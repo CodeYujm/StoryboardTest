@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    //测试添加已修改的文件
     UIButton * btn = [[UIButton alloc]init];
     btn.frame = CGRectMake(20, 80, 100, 30);
     btn.backgroundColor = [UIColor redColor];
